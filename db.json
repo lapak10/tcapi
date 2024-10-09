@@ -4,10 +4,31 @@
     { "id": 2, "title": "Post 2" },
     { "id": 3, "title": "Post 3" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
+  "/content/tabs/list": {
+    "data": [
+      {
+        "id": 1,
+        "type": "old",
+        "tabName": "Old Testament",
+        "tabSequence": 1
+      },
+      {
+        "id": 2,
+        "type": "new",
+        "tabName": "New Testament",
+        "tabSequence": 2
+      },
+      {
+        "id": 3,
+        "type": "topical-teachings-3",
+        "tabName": "Topical Teachings",
+        "tabSequence": 3
+      }
+    ],
+    "isAllowPaypal": true,
+    "isAllowServant": false,
+    "isAllowZelle": false
+  },
   "profile": {
     "name": "typicode"
   }
