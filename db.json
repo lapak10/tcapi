@@ -30,6 +30,28 @@
     "isAllowZelle": false
   },
   "profile": {
-    "name": "typicode"
+    "data": [
+      {
+        "id": 1,
+        "type": "old",
+        "tabName": "Old Testament",
+        "tabSequence": 1
+      },
+      {
+        "id": 2,
+        "type": "new",
+        "tabName": "New Testament",
+        "tabSequence": 2
+      },
+      {
+        "id": 3,
+        "type": "topical-teachings-3",
+        "tabName": "Topical Teachings",
+        "tabSequence": 3
+      }
+    ],
+    "isAllowPaypal": true,
+    "isAllowServant": false,
+    "isAllowZelle": false
   }
 }
